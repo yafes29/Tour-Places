@@ -1,8 +1,11 @@
-
+import "./_header.scss";
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <div className="header"> 
+      <h1>POPULER TOUR PLACES</h1>
+
+    </div>
   )
 }
 
