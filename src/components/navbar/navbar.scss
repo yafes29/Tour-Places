@@ -1,0 +1,27 @@
+@import "../../scss/_variable";
+
+.navbar {
+
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+    margin-top: 1rem;
+    background-color: $Coral-Teal-Gray-5-hex;
+    
+
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 1.5rem;
+
+        &:hover{
+
+            background-color: $orange--teal-2-hex;
+            border-radius: 10px;
+            padding: 2rem;
+            
+        }
+    }
+}
